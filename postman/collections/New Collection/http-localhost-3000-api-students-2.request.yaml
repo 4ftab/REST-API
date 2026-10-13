@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:3000/api/students/2
+description: ""
+url: http://localhost:3000/api/students/2
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Ali Ahmed\",\r
+
+    \    \"email\":\"aliahmed@gmail.com\",\r
+
+    \    \"age\":\"21\"\r
+
+    }"
+order: 1790067584708
